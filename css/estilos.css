@@ -102,6 +102,15 @@ body {
     margin-top: 150px;
 }
 
+.imagen1Servicios {
+    width: 400px;
+    height: 400px;
+}
+
+.servicios1 {
+    display: flex;
+}
+
 .listaHome {
     list-style-type: none;
     animation-name: aparecer;
@@ -163,6 +172,12 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
+.imgMenu{
+    width: 120px;
+    height: 120px; 
+    display: none;
+}
+
 .bodyServicios {
     background-color: rgb(228, 200, 190);
     font-family: 'Dancing Script', cursive;
@@ -219,3 +234,36 @@ input, textarea {
 	       }
 
 }
+
+@media screen and (max-width: 830px) {
+    .header {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .imgMenu{
+        display: inline-flex;
+        position: absolute;
+        left: 10px;
+        margin: auto;
+    }
+    .navMenu{
+       display: none;
+    }
+    
+    .logoHeader{
+        margin: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .Galeria img {
+        width: 100%;
+    }
+  }
+
+
+
+  
