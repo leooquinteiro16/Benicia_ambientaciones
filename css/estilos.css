@@ -1,6 +1,7 @@
 body {
     font-size: 62.5%;
     margin: 0px;
+    font-family: 'Dancing Script', cursive;
 }
 
 
@@ -16,25 +17,6 @@ body {
     align-items: center;
 }
 
-.headerHome {
-    background-image: linear-gradient(to right, rgb(177, 177, 177), rgb(228, 200, 190));
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    animation-name: aparecer;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-}
-
-.headerContactos {
-    background-image: linear-gradient(to right, rgb(177, 177, 177), rgb(228, 200, 190));
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-
 .logoHeader {
     margin-right: auto;
     width: 120px;
@@ -44,6 +26,7 @@ body {
     position: absolute;
     display: inline-block;
     text-align: right;
+    margin-right: 25px;
 }
 
 .navMenu ul{
@@ -73,6 +56,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    font-family: 'Dancing Script', cursive;
 }
 
 
@@ -88,9 +72,11 @@ body {
 } 
 
 .redes img{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
     margin-left: 15px;
+
 }
 
 .sectionHome {
@@ -102,12 +88,34 @@ body {
     margin-top: 150px;
 }
 
-.imagen1Servicios {
-    width: 400px;
-    height: 400px;
+.videoServicios1{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 300px;
+}
+
+.descripcionServicios2 {
+    align-items: left;
 }
 
 .servicios1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.videoServicios2{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 300px;
+}
+
+.servicios2 {
     display: flex;
 }
 
@@ -124,7 +132,8 @@ body {
     animation-name: aparecer;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    animation-timing-function: linear
+    animation-timing-function: linear;
+    margin-top: 15px;
 }
 
 
@@ -218,6 +227,10 @@ input, textarea {
     width: 100%;
 }
 
+.copyright {
+    margin-top: 17px;
+}
+
 
 @keyframes aparecer {
 	0%{
@@ -235,6 +248,49 @@ input, textarea {
 
 }
 
+@media screen and (max-width: 500px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1;
+        font-size: 22px;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .logoHeader{
+        margin-right: auto;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    .navMenu ul{
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+        margin-top: 12px;
+    }
+
+    .redes img{
+        margin-top: 17px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .copyright {
+        margin-top: 17px;
+    }
+
+    .Galeria img{
+        width: 200px;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+/*   
 @media screen and (max-width: 830px) {
     .header {
       display: flex;
@@ -262,8 +318,4 @@ input, textarea {
     .Galeria img {
         width: 100%;
     }
-  }
-
-
-
-  
+  } */
