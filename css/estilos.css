@@ -294,6 +294,11 @@ input, textarea {
         margin-top: 17px;
     }
 
+    .listaHome {
+        align-items: center;
+        padding: 0;
+    }
+
     .Galeria img{
         width: 200px;
         height: 150px;
