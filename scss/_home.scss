@@ -1,0 +1,21 @@
+.bodyHome{
+    background-image: url(../multimedia/banner.jpg);
+    background-position: center;
+}
+
+.sectionHome {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.listaHome {
+    list-style-type: none;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear
+}

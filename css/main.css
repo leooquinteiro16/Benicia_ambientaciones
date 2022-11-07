@@ -1,0 +1,348 @@
+body {
+  font-size: 62.5%;
+  margin: 0px;
+  font-family: "Dancing Script", cursive;
+}
+
+.header {
+  background-image: linear-gradient(to right, rgb(177, 177, 177), rgb(228, 200, 190));
+  background-position: left;
+  width: 100%;
+  height: 120px;
+  margin-bottom: 30px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logoHeader {
+  margin-right: auto;
+  width: 120px;
+}
+
+.navMenu {
+  position: absolute;
+  display: inline-block;
+  text-align: right;
+  margin-right: 25px;
+}
+.navMenu ul {
+  display: inline-block;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+}
+.navMenu li {
+  display: inline-block;
+  margin: 0px;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(212, 208, 214);
+}
+a:visited {
+  color: rgb(154, 26, 240);
+}
+a:hover {
+  font-weight: bold;
+  color: rgb(154, 26, 240);
+}
+
+.titulos {
+  font-size: 50px;
+  text-align: center;
+  animation-name: aparecer;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.footer {
+  background-color: rgba(26, 25, 25, 0.7);
+  color: white;
+  margin: 0px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-family: "Dancing Script", cursive;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.redes img {
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.copyright {
+  font-size: 20px;
+  margin-top: 17px;
+}
+
+.bodyHome {
+  background-image: url(../multimedia/banner.jpg);
+  background-position: center;
+}
+
+.sectionHome {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+
+.listaHome {
+  list-style-type: none;
+  animation-name: aparecer;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.bodyServicios {
+  background-color: rgb(228, 200, 190);
+  font-family: "Dancing Script", cursive;
+}
+
+.servicios1 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.servicios2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.descripcionServicios {
+  font-size: 30px;
+  animation-name: aparecer;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.videoServicios1 {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  width: 1000px;
+  height: 300px;
+}
+
+.videoServicios2 {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  width: 1000px;
+  height: 300px;
+}
+
+.descripcionServicios2 {
+  align-items: left;
+}
+
+.Galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation-name: aparecer;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+.Galeria img {
+  width: 300px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+.bodyGaleria {
+  background-color: rgb(228, 200, 190);
+  font-family: "Dancing Script", cursive;
+}
+
+.bodyQuienes {
+  background-color: rgb(228, 200, 190);
+  font-family: "Dancing Script", cursive;
+}
+
+.divSobreNosotros {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgSobreNosotros {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  width: 1000px;
+  height: 300px;
+}
+
+.bodyContactos {
+  background-image: url(../multimedia/fondo-contactos.jpg);
+  background-position: center;
+  font-family: "Dancing Script", cursive;
+}
+
+.tituloContacto {
+  color: aliceblue;
+  font-size: 50px;
+  text-align: center;
+  animation-name: aparecer;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.contactanos {
+  color: bisque;
+}
+
+.formularioContacto {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+  animation-name: aparecer;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+.textoFormulario {
+  color: aliceblue;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0%;
+  }
+  25% {
+    opacity: 25%;
+  }
+  75% {
+    opacity: 75%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1;
+    font-size: 22px;
+    flex-direction: column;
+    text-align: right;
+  }
+  .logoHeader {
+    margin-right: auto;
+    align-items: flex-start;
+    margin: 0;
+  }
+  .navMenu ul {
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    margin-top: 12px;
+  }
+  .redes img {
+    margin-top: 17px;
+    width: 30px;
+    height: 30px;
+  }
+  .copyright {
+    margin-top: 17px;
+  }
+  .listaHome {
+    align-items: center;
+    padding: 0;
+  }
+  .Galeria img {
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+  }
+  .bodyServicios {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .servicios1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .servicios2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .titulos {
+    font-size: 40px;
+    text-align: center;
+  }
+  .videoServicios1 {
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .descripcionServicios {
+    font-size: 20px;
+    text-align: center;
+  }
+  .videoServicios2 {
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .bodyQuienes {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .divSobreNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgSobreNosotros {
+    width: 300px;
+    height: 100%;
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

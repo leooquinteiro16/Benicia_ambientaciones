@@ -1,0 +1,46 @@
+.bodyServicios {
+    background-color: rgb(228, 200, 190);
+    font-family: 'Dancing Script', cursive;
+}
+
+.servicios1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.servicios2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.descripcionServicios {
+    font-size: 30px;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.videoServicios1{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 300px;
+}
+
+.videoServicios2{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 300px;
+}
+
+.descripcionServicios2 {
+    align-items: left;
+}
