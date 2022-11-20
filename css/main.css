@@ -233,7 +233,7 @@ a:hover {
 }
 
 .textoFormulario {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 }
 
 input, textarea {
@@ -254,6 +254,7 @@ input, textarea {
     opacity: 100%;
   }
 }
+
 @media screen and (max-width: 500px) {
   .header {
     display: grid;
@@ -345,4 +346,95 @@ input, textarea {
   }
 }
 
+@media screen and (max-width:1024px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1;
+    font-size: 22px;
+    flex-direction: column;
+    text-align: right;
+  }
+  .logoHeader {
+    margin-right: auto;
+    align-items: flex-start;
+    margin: 0;
+  }
+  .navMenu ul {
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    margin-top: 12px;
+  }
+  .redes img {
+    margin-top: 17px;
+    width: 30px;
+    height: 30px;
+  }
+  .copyright {
+    margin-top: 17px;
+  }
+  .listaHome {
+    align-items: center;
+    padding: 0;
+  }
+  .Galeria img {
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+  }
+  .bodyServicios {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .servicios1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .servicios2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .titulos {
+    font-size: 40px;
+    text-align: center;
+  }
+  .videoServicios1 {
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .descripcionServicios {
+    font-size: 20px;
+    text-align: center;
+  }
+  .videoServicios2 {
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .bodyQuienes {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .divSobreNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgSobreNosotros {
+    width: 300px;
+    height: 100%;
+    margin-bottom: 0;
+
+}
+}
 /*# sourceMappingURL=main.css.map */
